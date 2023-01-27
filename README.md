@@ -16,7 +16,7 @@ G, g -> Ğ, ğ<br>
 **This is probably not perfect and I expect there will be some glitches.**
 
 **Note:**<br>
-I release my script under the public domain which means you are free to do whatever you wish with it. So feel free to change and share.
+I release my script under the public domain which means you are free to do whatever you want to do with it. So feel free to change and share.
 
 However, [AutoHotKey](https://www.autohotkey.com/) v1.1 which my script is complied with is a free/open-source software licensed under [GNU GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html). GPLv2 allows you to freely use, study, modify the program, and distribute the original and the modified version as you wish. But in extra, GPLv2 also requires that any software that uses GPL software must contain the source code. Therefore turkish_double.exe file that was compiled with AutoHotKey is also under GPLv2. So when you are sharing the `turkish_double.exe` file with someone, please let them know that the original source code is available here on this page (https://github.com/Sonnykimee/TurkishTyper). You don't have to do anything When you are sharing `turkish_double.ahk` file because the AHK file is just a simple text file that does not contain any of AutoHotKey.
 
