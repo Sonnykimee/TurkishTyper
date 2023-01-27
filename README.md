@@ -1,13 +1,15 @@
 # Turkish Typer
+**Download: (https://github.com/Sonnykimee/TurkishTyper/releases/tag/1.0.0)**
+
 Typing in Turkish using a US keyboard can be tricky because Turkish alphabets contain diacritic letters that are not on the US keyboard layout. Using Turkish keyboard extension solves this problem, however one difficulty I found is that it changes the overall layout of the keyboard and now you have to manually find out which one is which. So I wrote a simple script that allows you to type diacritic letters by quickly pressing the same key twice. For example, quickly pressing on "u" twice will type "ü".
 
-Transformation chart:
-U, u -> Ü, ü
-O, o -> Ö, ö
-İ, i -> I, ı
-C, c -> Ç, ç
-S, s -> Ş, ş
-G, g -> Ğ, ğ
+Transformation chart:<br>
+U, u -> Ü, ü<br>
+O, o -> Ö, ö<br>
+İ, i -> I, ı<br>
+C, c -> Ç, ç<br>
+S, s -> Ş, ş<br>
+G, g -> Ğ, ğ<br>
 
 **This is probably not perfect and I expect there will be some glitches.**
 
