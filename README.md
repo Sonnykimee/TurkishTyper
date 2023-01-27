@@ -13,7 +13,8 @@ G, g -> Ğ, ğ<br>
 
 **This is probably not perfect and I expect there will be some glitches.**
 
-I impose no copyright on my script which means it is in the public domain which again means you are free to use, study, modify, and distribute the original and the modified version of the script as you wish. So feel free to change and share.
+Note:
+I release my script under the the public domain license which means you are free to do whatever you wish with it. So feel free to change and share.
 
 However, [AutoHotKey](https://www.autohotkey.com/) v1.1 which my script is complied by is a free/open-source software licensed under [GNU GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html). GPLv2 still allows you to freely use, study, modify, and distribute the original and the modified version as you wish. But in extra, GPLv2 also requires that any software that uses a GPL software must contain the source code. Therefore `turkish_double.exe` file which was complied by AutoHotKey is under GPLv2. So when you are sharing `turkish_double.exe` file to someone, please let them know that the source code is available here on this page. When you are sharing `turkish_double.ahk` file, you don't have to do anything because AHK file is just a simple text file which does not contain any of AutoHotKey.
 
