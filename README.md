@@ -3,7 +3,7 @@
 
 **Source Code: https://github.com/Sonnykimee/TurkishTyper/blob/main/turkish_double.ahk**
 
-Typing in Turkish using a US keyboard can be tricky because Turkish alphabets contain diacritic letters that are not on the US keyboard layout. Using Turkish keyboard extension solves this problem, however one difficulty I found is that it changes the overall layout of the keyboard and now you have to manually find out which one is which. So I wrote a simple script that allows you to type diacritic letters by quickly pressing the same key twice. For example, quickly pressing on "u" twice will type "ü".
+Typing in a Turkish using a US keyboard can be tricky because Turkish alphabets contain diacritic letters that are not on the US keyboard layout. Using Turkish keyboard extension solves this problem, however one difficulty I found is that it changes the overall layout of the keyboard and now you have to manually find out which one is which. So I wrote a simple script that allows you to type diacritic letters by quickly pressing the same key twice. For example, quickly pressing on "u" twice will type "ü".
 
 Transformation chart:<br>
 U, u -> Ü, ü<br>
