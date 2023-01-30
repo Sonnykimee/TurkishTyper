@@ -6,7 +6,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 KeyDelay := 0.15			; wait for 0.15 seconds (default)
 
 ~*i::
-    if (GetKeyState("CapsLock", "T"))
+    state := GetKeyState("CapsLock", "T") or GetKeyState("Shift", "P")
+    if (state)
         Send, {BS}İ
     else
         Send, {BS}i
@@ -15,26 +16,10 @@ KeyDelay := 0.15			; wait for 0.15 seconds (default)
     if ErrorLevel 			; timed-out (only a single press)
         Return
     Else
-        if (GetKeyState("CapsLock", "T"))
+        if (state)
             Send, {BS}{BS}I
         else
             Send, {BS}{BS}ı		; change i to ı
-Return
-
-~+i::
-    if (GetKeyState("CapsLock", "T"))
-        Send, {BS}i
-    else
-        Send, {BS}İ
-    KeyWait, i
-    KeyWait, i, D T%KeyDelay%
-    if ErrorLevel
-        Return
-    Else
-        if (GetKeyState("CapsLock", "T"))
-            Send, {BS}{BS}ı
-        else
-            Send, {BS}{BS}I
 Return
 
 ~*o::
