@@ -6,7 +6,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 KeyDelay := 0.15			; wait for 0.15 seconds (default)
 
 ~*i::
-    state := GetKeyState("CapsLock", "T") or GetKeyState("Shift", "P")
+    state := (GetKeyState("CapsLock", "T") != GetKeyState("Shift", "P"))
     if (state)
         Send, {BS}İ
     else
@@ -23,141 +23,66 @@ KeyDelay := 0.15			; wait for 0.15 seconds (default)
 Return
 
 ~*o::
-    if (GetKeyState("CapsLock", "T"))
-        Send, {BS}O
+    state := (GetKeyState("CapsLock", "T") != GetKeyState("Shift", "P"))
     KeyWait, o
     KeyWait, o, D T%KeyDelay%
     if ErrorLevel
         Return
     Else
-        if (GetKeyState("CapsLock", "T"))
+        if (state)
             Send, {BS}{BS}Ö
         else
             Send, {BS}{BS}ö
-Return
-
-~+o::
-    if (GetKeyState("CapsLock", "T"))
-        Send, {BS}o
-    KeyWait, o
-    KeyWait, o, D T%KeyDelay%
-    if ErrorLevel
-        Return
-    Else
-        if (GetKeyState("CapsLock", "T"))
-            Send, {BS}{BS}ö
-        else
-            Send, {BS}{BS}Ö
 Return
 
 ~*u::
-    if (GetKeyState("CapsLock", "T"))
-        Send, {BS}U
+    state := (GetKeyState("CapsLock", "T") != GetKeyState("Shift", "P"))
     KeyWait, u
     KeyWait, u, D T%KeyDelay%
     if ErrorLevel
         Return
     Else
-        if (GetKeyState("CapsLock", "T"))
+        if (state)
             Send, {BS}{BS}Ü
         else
             Send, {BS}{BS}ü
-Return
-
-~+u::
-    if (GetKeyState("CapsLock", "T"))
-        Send, {BS}u
-    KeyWait, u
-    KeyWait, u, D T%KeyDelay%
-    if ErrorLevel
-        Return
-    Else
-        if (GetKeyState("CapsLock", "T"))
-            Send, {BS}{BS}ü
-        else
-            Send, {BS}{BS}Ü
 Return
 
 ~*g::
-    if (GetKeyState("CapsLock", "T"))
-        Send, {BS}G
+    state := (GetKeyState("CapsLock", "T") != GetKeyState("Shift", "P"))
     KeyWait, g
     KeyWait, g, D T%KeyDelay%
     if ErrorLevel
         Return
     Else
-        if (GetKeyState("CapsLock", "T"))
+        if (state)
             Send, {BS}{BS}Ğ
         else
             Send, {BS}{BS}ğ
-Return
-
-~+g::
-    if (GetKeyState("CapsLock", "T"))
-        Send, {BS}g
-    KeyWait, g
-    KeyWait, g, D T%KeyDelay%
-    if ErrorLevel
-        Return
-    Else
-        if (GetKeyState("CapsLock", "T"))
-            Send, {BS}{BS}ğ
-        else
-            Send, {BS}{BS}Ğ
 Return
 
 ~*c::
-    if (GetKeyState("CapsLock", "T"))
-        Send, {BS}C
+    state := (GetKeyState("CapsLock", "T") != GetKeyState("Shift", "P"))
     KeyWait, c
     KeyWait, c, D T%KeyDelay%
     if ErrorLevel
         Return
     Else
-        if (GetKeyState("CapsLock", "T"))
+        if (state)
             Send, {BS}{BS}Ç
         else
             Send, {BS}{BS}ç
-Return
-
-~+c::
-    if (GetKeyState("CapsLock", "T"))
-        Send, {BS}c
-    KeyWait, c
-    KeyWait, c, D T%KeyDelay%
-    if ErrorLevel
-        Return
-    Else
-        if (GetKeyState("CapsLock", "T"))
-            Send, {BS}{BS}ç
-        else
-            Send, {BS}{BS}Ç
 Return
 
 ~*s::
-    if (GetKeyState("CapsLock", "T"))
-        Send, {BS}S
+    state := (GetKeyState("CapsLock", "T") != GetKeyState("Shift", "P"))
     KeyWait, s
     KeyWait, s, D T%KeyDelay%
     if ErrorLevel
         Return
     Else
-        if (GetKeyState("CapsLock", "T"))
+        if (state)
             Send, {BS}{BS}Ş
         else
             Send, {BS}{BS}ş
-Return
-
-~+s::
-    if (GetKeyState("CapsLock", "T"))
-        Send, {BS}s
-    KeyWait, s
-    KeyWait, s, D T%KeyDelay%
-    if ErrorLevel
-        Return
-    Else
-        if (GetKeyState("CapsLock", "T"))
-            Send, {BS}{BS}ş
-        else
-            Send, {BS}{BS}Ş
 Return
