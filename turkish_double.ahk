@@ -3,7 +3,7 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-KeyDelay := 0.15			; wait for 0.15 seconds (default)
+KeyDelay := 0.10			; wait for 0.10 seconds (default)
 
 ~*i::
     state := (GetKeyState("CapsLock", "T") != GetKeyState("Shift", "P"))
