@@ -28,7 +28,7 @@ If you see a blue screen that says Windows Smart Defender SmartScreen, click on 
 
 To close the program, go to the right corner of your taskbar, and click on **show hidden icons** that look like ^. There should be a green H icon. Right-click on it, then click on **Exit**.
 
-<img src="images/exit.png" width="284" height="359">
+<img src="images/exit.png" width="142">
 
 ---
 
