@@ -3,6 +3,14 @@
 
 **Source Code: https://github.com/Sonnykimee/TurkishTyper/blob/main/turkish_double.ahk**
 
+**Install Guide:**
+Download `turkish_double.exe`.
+
+If you see a blue screen that says Windows Smart Defender SmartScreen, click on **More info** and click **Run anyway**. Next time, you can simply double-click on the downloaded `turkish_double.exe` to start the program.
+
+To close the program, go to the right corner of your taskbar, and click on **show hidden icons** that look like ^. There should be a green H icon. Right-click on it, then click on **Exit**.
+<img src="images/exit.png" width="284" height="359">
+
 <img src="images\title.png">
 
 Typing in a Turkish using a US keyboard can be tricky because Turkish alphabets contain diacritic letters that are not on the US keyboard layout. Using Turkish keyboard extension solves this problem, however one difficulty I found is that it changes the overall layout of the keyboard and now you have to manually find out which one is which. So I wrote a simple script that allows you to type diacritic letters by quickly pressing the same key twice. For example, quickly pressing on "u" twice will type "ü".
