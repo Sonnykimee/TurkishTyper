@@ -17,7 +17,7 @@ G, g -> Ğ, ğ<br>
 
 **This is probably not perfect and I expect there will be some glitches.**
 
-**Install Guide:**
+**Install Guide:**<br>
 Download `turkish_double.exe`.
 
 If you see a blue screen that says Windows Smart Defender SmartScreen, click on **More info** and click **Run anyway**. Next time, you can simply double-click on the downloaded `turkish_double.exe` to start the program.
