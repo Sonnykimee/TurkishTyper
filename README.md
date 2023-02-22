@@ -1,5 +1,5 @@
 # Turkish Typer
-**Download: https://github.com/Sonnykimee/TurkishTyper/releases/tag/1.0**
+**Download: https://github.com/Sonnykimee/TurkishTyper/releases/tag/1.1-2**
 
 **Source Code: https://github.com/Sonnykimee/TurkishTyper/blob/main/turkish_double.ahk**
 
